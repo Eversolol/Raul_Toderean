@@ -1,0 +1,72 @@
+[background:radial-gradient(125%_125%_at_50%_10%,#021526_40%,#021526_100%)]
+
+colors : #021526 #03346e
+
+green : text-[#64ffda]
+
+grijs : text-[#8892b0]
+
+
+
+I love creating web applications that are not just robust and scalable but also a joy to use. 
+With hands-on experience in front-end tech like React, as well as back-end tools like Node.js and MongoDB, 
+I’ve sharpened my skills to build solutions that really work.
+
+I’m all about using my know-how to make cool stuff that helps businesses grow and keeps users coming back for more. 
+Always up for a new challenge, I’m excited to keep pushing the limits and creating web experiences that stand out.
+
+
+<div className="flex flex-wrap items-center">
+        <div className="w-full lg:w-1/2 md:w-full">
+          <div className="flex flex-col items-start px-6">
+            <h1 className=" font-extrathin tracking-tight lg:mt-16 text-4xl lg:text-8xl  md:text-6xl text-neutral-400 mb-2">
+              <ReactTyped
+                strings={[
+                  "Hello, my name is Raul",
+                  "Salut, ma numesc Raul",
+                  "Salut, je m'appelle Raul",
+                  "Hallo, ik ben Raul",
+                  "Hola soy Raul",
+                ]}
+                typeSpeed={100}
+                backSpeed={80}
+                loop
+              />
+            </h1>
+            {/* <h1 className="capitalize pb-16 font-extrathin tracking-tight  text-4xl lg:text-8xl  md:text-6xl text-neutral-400">
+              toderean raul
+            </h1> */}
+            <span
+              className="bg-gradient-to-r from-pink-300 via-slate-500 to bg-purple-500 bg-clip-text
+             text-4xl tracking-tight text-transparent"
+            >
+              Front-end Developer
+            </span>
+
+            <div class="flex justify-start pt-8 pb-5">
+              <div class="bg-[#EB5B00] rounded-full">
+                <h1 class="px-3 py-2 font-bold text-2xl text-slate-100">Web</h1>
+              </div>
+              <div class="bg-[#36C2CE] rounded-full mx-2">
+                <h1 class="px-3 py-2 font-bold text-2xl text-slate-100">
+                  UI/UX
+                </h1>
+              </div>
+              <div class="bg-[#FFB200] rounded-full">
+                <h1 class="px-3 py-2 font-bold text-2xl text-slate-100">
+                  Design
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="w-full lg:w-1/2">
+          <div className="flex bg-cover bg-center px-6">
+            <img
+              src={profilePic}
+              alt="profile"
+              className="h-[765.5px] w-[576px] rounded"
+            />
+          </div>
+        </div>
+      </div>
